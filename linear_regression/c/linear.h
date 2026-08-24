@@ -16,12 +16,26 @@ int learning_init(
     double learning_rate
 );
 
-void linear_free();
+void linear_free(LinearRegression *model);
 
-double learning_mse();
+double learning_mse(
+    const LinearRegression *model,
+    const double *x,
+    const double *y,
+    size_t sample_cnt
+);
 
-double learning_predict_one();
+double learning_predict_one(
+    const LinearRegression *model,
+    const double *sample
+);
 
-int learn_train();
+int learn_train(
+    LinearRegression *model,
+    const double *x,
+    const double *y,
+    size_t sample_cnt,
+    size_t epochs
+);
 
 #endif
