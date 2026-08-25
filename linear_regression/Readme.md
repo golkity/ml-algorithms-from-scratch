@@ -1,6 +1,6 @@
 # Линейная регрессия
 
-![linear_reg](https://neerc.ifmo.ru/wiki/index.php?title=Файл:Linear_regression_example.png)
+![linear_reg](https://neerc.ifmo.ru/wiki/images/f/f0/Linear_regression_example.png)
 
 > Это метод востановление зависимости одной зависимой переменной $y$ от другой или нескольких переменных $x$ с линейной функцией зависимости
 > Данный метод позволяет предсказывать значения зависимой переменной $y$ по значению независимой переменной $x$
